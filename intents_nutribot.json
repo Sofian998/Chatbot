@@ -1,0 +1,199 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?", "Hello", "Good day", "What's up?", "wassup"],
+         "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?", "I'm fine!", "I'm doing good!"],
+         "context": [""]
+        },
+        {"tag": "purpose",
+         "patterns": ["What is your purpose?", "What is your task?", "What", "your name pls", "your name plz"],
+         "responses": ["You can shoot me any questions pertaining to cooking & healthy eating", "I'm an aspiring nutrionist willing to help anyone lead a healthy diet!", "Ask me any anything from recipes to facts about food"],
+         "context": [""]
+        },
+        {"tag": "user_happy",
+         "patterns": ["I'm well, thank you", "I'm happy", "I'm okay"],
+         "responses": ["That's great! Glad to hear it!", "Good to see you again", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "user_sad",
+         "patterns": ["Meh", "Meh, been better.", "I'm grumpy"],
+         "responses": ["That's great! Glad to hear it!", "Good to see you again", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "user_grumpy",
+         "patterns": ["I'm well, thank you", "Meh", "Meh, been better.", "I'm grumpy", "I'm happy", "I'm okay"],
+         "responses": ["That's great! Glad to hear it!", "Good to see you again", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "thyroid_info",
+         "patterns": ["Where is the thyroid gland located?", "What is thyroid gland?", "thyroid"],
+         "responses": ["A butterfly-shaped organ located at the base of your neck.", "This organ releases hormones that controls your metabolism! It's at the base of your neck."],
+         "context": [""]
+        },
+        {"tag": "hyperthyroidism",
+         "patterns": ["What is hyperthyroidism?", "hyperthyroidism", "Tell me about hyperthyroid"],
+         "responses": ["Hyperthyroidism means an overactive thyroid gland. Your gland will produce more hormones than needed.", "Hyperthyroid can accelerate your body's metabolism"],
+         "context": [""]
+        },
+        {"tag": "symptoms_hyperthyroidism",
+         "patterns": ["What are the symptoms of hyperthyroidism?", "What are symptoms of an overactive thyroid?", "Tell me about hyperthyroid symptoms"],
+         "responses": ["The symptoms are: rapid weight loss, irregular or fast paced heartbeat & heat intolerance.", "You may lose weight pretty fast due to hyperthyroidism!"],
+         "context": [""]
+        },
+        {"tag": "weight_loss_thyroid",
+         "patterns": ["Why does hyperthyroid cause weight loss?", "Why weight loss?"],
+         "responses": ["Your metabolism goes on overdrive, causing weight loss.", "High level of hormonal imbalance can cause rapid weight loss."],
+         "context": [""]
+        },
+        {"tag": "heartbeat_thyroid",
+         "patterns": ["Why does heartbeat increase in thyroid?", "How does heartbeat and thyroid related?"],
+         "responses": ["Excess thyroid hormones causes palpitations.", "You thyroid hormone interferes with the nervous system's control of the heart."],
+         "context": [""]
+        },
+        {"tag": "nervous system",
+         "patterns": ["How does nervous system control heart?"],
+         "responses": ["Heart rate is controlled by two branches of the nervous system: The sympathetic (SNS) and parasympathetic nervous system (PNS). The SNS releases hormones to accelerate heart rate. PNS releases hormones to slow the heart rate."],
+         "context": [""]
+        },
+
+        {"tag": "heat_thyroid",
+         "patterns": ["Why heat intolerance?", "Why does thyroid provide heat intolerance?"],
+         "responses": ["Hyperthyroidism may cause sensitivity to heat and excessive heating.", "Hyperthyroid can accelerate your body's metabolism, casuing heat to go away from body quickly."],
+         "context": [""]
+        },
+        {"tag": "goiter",
+         "patterns": ["What is goiter?", "Does thyroid have any abnormal shape?"],
+         "responses": ["An abnormal enlargement of the thyroid gland. May cause a cough and make it difficult to swallow or breathe. So go to your doctor to get it checked!"],
+         "context": [""]
+        },
+        {"tag": "shortbreath_thyroid",
+         "patterns": ["I have short breath", "Do people have short breath during thyroid?"],
+         "responses": ["Hyperthyroidism weakens the respiratory muscles and decreases lung function."],
+         "context": [""]
+        },
+        {"tag": "BMI", 
+         "patterns": ["I want to check my BMI.", "How to check my fat?"],
+         "responses": ["Yes, sure. go back to main window and click on the BMI calculator!", "BMI is a great place to start and check where you lie in the obesity chart."],
+         "context": [""]
+        },
+        {"tag": "underweight", 
+         "patterns": ["I am underweight", "I am underweight, any tips?"],
+         "responses": ["Although being lean can be healthy, if you are underweight, then it can be the result of poor nutrition that can impact your day-to-day activities. For starters, eat more frequently and make your diet nutrient rich. More importantly, start working out."],
+         "context": [""]
+        },
+        {"tag": "normal_weight", 
+         "patterns": ["Any tips to maintain weight?"],
+         "responses": ["Yes, sure. go back to main window and click on the BMI calculator!"],
+         "context": [""]
+        },
+        {"tag": "overweight", 
+         "patterns": ["I am overweight", "I am obese. Any tips?", "I am fat, give me some tips."],
+         "responses": ["The main idea is that you burn the same number of calories as you eat and drink to maintain a healthy weight. Limit portion control. Be as physically active as you can be. Drink plenty of fluids, eat your veggies, and read your nutrition label to keep track of what you eat."],
+         "context": [""]
+        },
+        {"tag": "hypothyroidism",
+         "patterns": ["What is hypothyroidism?", "I have an underactive thyroid"],
+         "responses": ["Hypothyroidism means you have an underactive thyroid. You may tire more easily, feel colder than usual and even become depressed."],
+         "context": [""]
+        },
+        {"tag": "autoimmune_thyroiditis",
+         "patterns": ["Whaat is autoimmune thyroiditis?", "Why does hypothyroid occur?"],
+         "responses": ["The immune system acts against the thyroid gland cells as if they were invaders. This causes cells to be destroyed, not able to make enough thyroid hormone."],
+         "context": [""]
+        },
+        {"tag": "healthy_eating",
+         "patterns": ["How to eat healthy?", "Give me some tips on eating healthy food", "Healthy eating tips"],
+         "responses": ["Emphasize on vegetables, fruits, whole grain and fat-free or low-fat dairy products. Control portion sizes. Includes lean meats, fish, poultry and eggs for growth!"],
+         "context": [""]
+        },
+        {"tag": "portion_size",
+         "patterns": ["How much portion should I eat?", "Give me some tips on portion control", "portion control tips", "portion control"],
+         "responses": ["Protein: Hand's palm worth of meat/fish/chicken. Carbohydrates: 1 cupped hand worth of carbohydrates. Vegetables: 1 hand fist worth serving of vegetables or more!. Fats: Only  thumb worth of serving"],
+         "context": [""]
+        },
+        {"tag": "testing_thyroid",
+         "patterns": ["How to test for thyroid?", "testing procedures for thyroid"],
+         "responses": ["Hyperthyroidism means an overactive thyroid gland. Your gland will produce more hormones than needed.", "Hyperthyroid can accelerate your body's metabolism"],
+         "context": [""]
+        },
+        {"tag": "health_tips_thyroid",
+         "patterns": ["Health tips to prevent thyroid disease?", "thyroid disease prevention"],
+         "responses": ["Make sure to wear a thyroid collar during x-rays to prevent radiation exposure to the thyroid gland. Quit Smoking and if your experience dip in your energy levels, visit the doctor for a thyroid checkup."],
+         "context": [""]
+        },
+        {"tag": "obesity_info",
+         "patterns": ["What is obesity?", "Why do I get obese?"],
+         "responses": ["Obesity is generally caused by eating too much and moving too little. If you consume high amounts of carbs, fats and sugar and do not burn off that energy, these nutrients will be stored as fat reserves, contributing to obesity."],
+         "context": [""]
+        },
+        {"tag": "genetic_obesity",
+         "patterns": ["Does obesity have anything to do with genes?"],
+         "responses": ["Rare single-gene defects cause severe obesity beginning in early childhood and are associated with extremely high levels of hunger. Maybe due to Leptin Deficiency, POMC Deficiency, MC4R Deficiency"],
+         "context": [""]
+        },
+        {"tag": "treatment_obesity",
+         "patterns": ["How to treat BMI?", "BMI treatment"],
+         "responses": ["Firstly, check out our BMI calculator in the main window, since it can determine which weight zone you lie under. Secondly, get a general physical exam to check your vitals. Get a blood test to check if you have any deficiency. To start eating healthy, type 'healthy eating'."],
+         "context": [""]
+        },
+        {"tag": "risk_obesity",
+         "patterns": ["Risks of obesity?", "What are risks of obesity?"],
+         "responses": ["Well you probably will be vulnerable to almost any type of disease if you dont monitor your food intake and lead a sedentary life."],
+         "context": [""]
+        },
+        {"tag": "obesity_health_tips",
+         "patterns": ["How to prevent obesity", "obesity prevention"],
+         "responses": ["Try to stock the fridge and pantry with healthy foods, and allow less-healthy snacks. Get at least 60 minutesTrusted Source of physical activity daily. Fun physical activities include games, sports, gym class, or even outdoor chores."],
+         "context": [""]
+        },
+        {"tag": "diet_tips_obesity",
+         "patterns": ["Any diet tips?", "Diet tips for reducing weight", "Give me some tips to eat for obesity"],
+         "responses": ["Hyperthyroidism means an overactive thyroid gland. Your gland will produce more hormones than needed.", "Hyperthyroid can accelerate your body's metabolism"],
+         "context": [""]
+        },
+        {"tag": "healthy_breakfast",
+         "patterns": ["Good breakfast options", "Any suggestions for breakfast?", "Do you know any good breakfast options?"],
+         "responses": ["A good breakfast must consist of good amount of carbs, protein, fats and veggies to keep you prepped for the day. Some recipes to try are: Avocado Toast with Egg; Nut Butter, Banana, and Chia Seed Toast; Tomato Toast with ricotta."],
+         "context": [""]
+        },
+        {"tag": "healthy_lunch",
+         "patterns": ["Good lunch options", "Any suggestions for lunch?", "Do you know any good lunch options?"],
+         "responses": ["Lunch is an exciting part of the day and you can make anything you like (not high sugar obviously!). Some recipes to try are: BBQ chicken salad, greek yoghurt chicken salad sandwich, burrito bowls, and steak fajita salad to name a few"],
+         "context": [""]
+        },
+        {"tag": "healthy_dinner",
+         "patterns": ["Good dinner options", "Any suggestions for dinner?", "Do you know any good dinner options?"],
+         "responses": ["Dinner is best kept light and clean so you can have a good nights sleep! Some recipes to try are: Pan fried fish with greens, chicken parm stuffed peppers, skinny alfredo pasta, and roast chicken with veggies are some of my favorites"],
+         "context": [""]
+        },
+        {"tag": "healthy_snacks",
+         "patterns": ["Good snack options", "Any suggestions for snacks?", "Do you know any good snack options?"],
+         "responses": ["Eating snacks is actually really good to keep your hunger pangs at bay if you know how to eat right! Some snacks to try are: minxed nutes, greek yoghurt with mixed berries, apple slices with peanut butter, kale chips are some of my favorite things to have!!"],
+         "context": [""]
+        },
+        {"tag": "healthy_smoothies",
+         "patterns": ["Good smoothie options", "Any suggestions for smoothies?", "Do you know any good smoothies?"],
+         "responses": ["Smoothies are a great way to get in your fruits and amp up those vitamins for a healthy body! Some recipes to try are: Berry and Yogurt Smoothie; Peanut Butter and Banana Smoothie (my favorite) are some to try!"],
+         "context": [""]
+        },
+        {"tag": "water_intake",
+         "patterns": ["Good breakfast options", "Any suggestions for breakfast?"],
+         "responses": ["Water intake is essential for a healthy functioning body. Start your day with one or two glasses of water to activate your digestive system. Drink atleast 1.5 litres of water per day. Add some fruits or honey to the water if you like since they can amp up the flavor and make water drinking enjoyable!"],
+         "context": [""]
+        },
+        {"tag": "error",
+         "patterns": [""],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand", "Can you repeat the question again please?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        }
+   ]
+}
