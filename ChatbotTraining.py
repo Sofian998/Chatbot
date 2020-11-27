@@ -58,7 +58,6 @@ for intent in intents['intents']:
 
 labels = sorted(labels)
 
-
 # Creating Vocabulary
 
 lower_case = []
@@ -347,7 +346,7 @@ print("model is created")
 
 # Saving the results of the model and other documents for predictions later on.
 
-with open("data.pickle", "wb") as f:
+with open("data_nutribot.pickle", "wb") as f:
     pickle.dump((vocab_list, labels, training_responses, training_labels), f)
 
-model.save('nutribot_model.h5', hist)
+model.save('nutri_bot_model.h5', hist)
